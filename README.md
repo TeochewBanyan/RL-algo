@@ -38,3 +38,10 @@ theta = theta + lr*decay*Q(st,at)*log_pi_gradient
 w = w + lr*error*Q_gradient
 ~~~
 
+
+
+#### AC vs. A2C
+
+###### In Brief:
+
+A2C uses Advantage function instead of Q function. Since Advantage function is Q-v, and v is the baseline, A2C could be viewed as a baseline version of AC.
