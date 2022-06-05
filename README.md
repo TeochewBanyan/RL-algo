@@ -1,6 +1,6 @@
 # RL-algo
 
-Implement some RL algorithms.
+Codes and notes. Implement some RL algorithms.
 
 ---
 
@@ -45,3 +45,11 @@ w = w + lr*error*Q_gradient
 ###### In Brief:
 
 A2C uses Advantage function instead of Q function. Since Advantage function is Q-v, and v is the baseline, A2C could be viewed as a baseline version of AC.
+
+
+
+
+
+### DDPG
+
+Code referenced from spinningup.
